@@ -1,0 +1,47 @@
+body {
+    background-color: #DCCCBB;
+    font-family: Permanent Marker;
+    margin: 0 auto;
+}
+
+.topbar {
+    background-color: #EAB464;
+    height: 150px;
+    box-shadow: 0px 5px 20px black;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+.title {
+    padding-top: 50px;
+    font-size:30px;
+    color: black;
+}
+
+.center {
+    height: 600px;
+    background-color: #DCCCBB;
+    display: block;
+    width: 100%;
+    position: fixed;
+}
+
+.grid-container {
+    width: 300px;
+    background-color: #646E78;
+    height: 300px;
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    box-shadow: 0px 5px 20px black;
+}
+    
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
